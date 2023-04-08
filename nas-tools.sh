@@ -119,7 +119,7 @@ services:
       - /home/nas-tools/config:/config
       - /downloads:/downloads
       - /mnt:/mnt
-      - /root/.config/rclone:/root/.config/rclone
+      - /root/.config/rclone:/nt/.config/rclone
     environment: 
       - PUID=0
       - PGID=0
