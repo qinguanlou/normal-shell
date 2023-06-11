@@ -125,7 +125,7 @@ services:
       - PGID=0
       - UMASK=022
       - TZ=Asia/Shanghai
-      - NASTOOL_AUTO_UPDATE=fales
+      - NASTOOL_AUTO_UPDATE=false
     restart: always
     network_mode: bridge
     hostname: nas-tools
