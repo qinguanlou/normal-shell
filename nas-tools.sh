@@ -138,7 +138,7 @@ services:
       - PUID=0
       - PGID=0
       - TZ=Asia/Shanghai
-      - WEBUI_PORT=8085
+      - WEBUI_PORT=8088
     volumes:
       - /home/qbittorrent/config:/config
       - /downloads:/downloads
